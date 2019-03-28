@@ -9,7 +9,7 @@ name_hash.each do |key, value|
  minVal=value if minVal=nil
  if value < minVal 
    minVal= value
-   minKey=key
+   minKey= key
 end
 end
 minKey
